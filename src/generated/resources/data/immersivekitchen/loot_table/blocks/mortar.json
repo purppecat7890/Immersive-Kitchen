@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "immersivekitchen:purp_lucky_block"
+          "name": "immersivekitchen:mortar"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "immersivekitchen:blocks/purp_lucky_block"
+  "random_sequence": "immersivekitchen:blocks/mortar"
 }

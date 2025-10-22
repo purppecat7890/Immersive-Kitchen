@@ -14,5 +14,4 @@ public class ImmersiveKitchenFoodProperties {
 
     public static final FoodProperties BLACK_PEPPER = new FoodProperties.Builder().nutrition(1).saturationModifier(0)
             .alwaysEdible().build();
-
 }

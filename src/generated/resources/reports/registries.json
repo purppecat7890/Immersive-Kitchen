@@ -1,0 +1,33 @@
+{
+  "minecraft:block": [
+    "immersivekitchen:mortar"
+  ],
+  "minecraft:block_entity_type": [
+    "immersivekitchen:mortar_e"
+  ],
+  "minecraft:creative_mode_tab": [
+    "immersivekitchen:fruits",
+    "immersivekitchen:key_ingredients",
+    "immersivekitchen:kitchen_tools",
+    "immersivekitchen:seasonings",
+    "immersivekitchen:vegetables"
+  ],
+  "minecraft:item": [
+    "immersivekitchen:black_pepper_powder",
+    "immersivekitchen:butter",
+    "immersivekitchen:flour",
+    "immersivekitchen:lemon",
+    "immersivekitchen:mortar",
+    "immersivekitchen:pestle",
+    "immersivekitchen:salt"
+  ],
+  "minecraft:menu": [
+    "immersivekitchen:mortar_menu"
+  ],
+  "minecraft:recipe_serializer": [
+    "immersivekitchen:mortar"
+  ],
+  "minecraft:recipe_type": [
+    "immersivekitchen:mortar"
+  ]
+}

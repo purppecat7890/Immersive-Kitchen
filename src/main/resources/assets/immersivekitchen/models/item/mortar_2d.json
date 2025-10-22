@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "immersivekitchen:item/mortar_item"
+  }
+}

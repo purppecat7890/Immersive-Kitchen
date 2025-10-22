@@ -1,6 +1,7 @@
 package dev.purppecat.immersivekitchen.world.tabs;
 
 import dev.purppecat.immersivekitchen.ImmersiveKitchen;
+import dev.purppecat.immersivekitchen.world.block.ImmersiveKitchenBlocks;
 import dev.purppecat.immersivekitchen.world.item.ImmersiveKitchenItems;
 import dev.thomasglasser.tommylib.api.registration.DeferredRegister;
 import java.util.function.Supplier;
@@ -53,7 +54,16 @@ public class ImmersiveKitchenCreativeModeTabs {
                         output.accept(Items.WATER_BUCKET);
                     })
                     .build());
-
+    public static final Supplier<CreativeModeTab> KITCHEN_TOOLS = CREATIVE_MODE_TABS.register("kitchen_tools",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(Items.BOWL)).title(Component.translatable("creativetab.immersivekitchen.kitchen_tools").withColor(0x7c8087))
+                    .displayItems((ItemDisplayParameters, output) -> {
+                        output.accept(Items.BOWL);
+                        output.accept(ImmersiveKitchenItems.PESTLE.get());
+                        output.accept(ImmersiveKitchenBlocks.MORTAR.asItem());
+                        output.accept(Items.BUCKET);
+                        output.accept(Items.GLASS_BOTTLE);
+                    })
+                    .build());
 
     public static void init() {}
 }

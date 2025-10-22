@@ -1,29 +1,28 @@
-package dev.purppecat.immersivekitchen.world.item;
+package dev.purppecat.immersivekitchen.world.item.items;
 
 import dev.purppecat.immersivekitchen.taste.Taste;
+import java.util.List;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.TooltipFlag;
 
-import java.util.List;
-
-public class ButterItem extends Item {
-    public ButterItem(Properties properties) {
+public class FlourItem extends Item {
+    public FlourItem(Properties properties) {
         super(properties);
     }
 
     @Override
     public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
         super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
-        tooltipComponents.add(Taste.SALTY.displayName());
-        tooltipComponents.add(Taste.FATTY.displayName());
-        tooltipComponents.add(Taste.CREAMY.displayName());
+        tooltipComponents.add(Taste.BLAND.displayName());
+        tooltipComponents.add(Taste.DRY.displayName());
+        tooltipComponents.add(Taste.POWDERY.displayName());
     }
 
     @Override
     public int getUseDuration(ItemStack stack, LivingEntity entity) {
-        return 41;
+        return 5;
     }
 }

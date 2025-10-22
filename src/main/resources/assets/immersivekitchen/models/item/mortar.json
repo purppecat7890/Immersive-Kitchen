@@ -1,0 +1,18 @@
+{
+  "parent": "minecraft:item/handheld",
+  "loader": "neoforge:separate_transforms",
+  "base": {
+    "parent": "immersivekitchen:item/mortar_3d"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "immersivekitchen:item/mortar_2d"
+    },
+    "ground": {
+      "parent": "immersivekitchen:item/mortar_2d"
+    },
+    "fixed": {
+      "parent": "immersivekitchen:item/mortar_2d"
+    }
+  }
+}

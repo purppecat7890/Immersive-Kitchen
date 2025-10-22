@@ -1,0 +1,34 @@
+{
+  "variants": {
+    "facing=east,pestle=false": {
+      "model": "immersivekitchen:block/mortar",
+      "y": 90
+    },
+    "facing=east,pestle=true": {
+      "model": "immersivekitchen:block/mortar_pestle",
+      "y": 90
+    },
+    "facing=north,pestle=false": {
+      "model": "immersivekitchen:block/mortar"
+    },
+    "facing=north,pestle=true": {
+      "model": "immersivekitchen:block/mortar_pestle"
+    },
+    "facing=south,pestle=false": {
+      "model": "immersivekitchen:block/mortar",
+      "y": 180
+    },
+    "facing=south,pestle=true": {
+      "model": "immersivekitchen:block/mortar_pestle",
+      "y": 180
+    },
+    "facing=west,pestle=false": {
+      "model": "immersivekitchen:block/mortar",
+      "y": 270
+    },
+    "facing=west,pestle=true": {
+      "model": "immersivekitchen:block/mortar_pestle",
+      "y": 270
+    }
+  }
+}
