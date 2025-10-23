@@ -13,7 +13,6 @@ import net.minecraft.world.item.component.TooltipProvider;
 
 public enum Taste implements TooltipProvider, StringRepresentable {
 
-
     SOUR(0xf2d863, ImmersiveKitchenItemTags.SOUR),
     SWEET(0xbdf797, ImmersiveKitchenItemTags.SWEET),
     TANGY(0x8a8c30, ImmersiveKitchenItemTags.TANGY),
@@ -43,7 +42,6 @@ public enum Taste implements TooltipProvider, StringRepresentable {
     SAVORY(0x452f0e , ImmersiveKitchenItemTags.SAVORY),
     OILY(0xfcc051 , ImmersiveKitchenItemTags.OILY),
     FLORAL(0xf3d7f7 , ImmersiveKitchenItemTags.FLORAL),
-    
     STARCHY(0xa89d85, ImmersiveKitchenItemTags.STARCHY),;
 
 
