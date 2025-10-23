@@ -35,7 +35,15 @@ public enum Taste implements TooltipProvider, StringRepresentable {
     BITTER(0x3b1c12, ImmersiveKitchenItemTags.BITTER),
     CHEWY(0xa86939, ImmersiveKitchenItemTags.CHEWY),
     MEATY(0xeb4452 , ImmersiveKitchenItemTags.MEATY),
-
+    FISHY(0x4675ab , ImmersiveKitchenItemTags.FISHY),
+    FLAKY(0xd5dfeb , ImmersiveKitchenItemTags.FLAKY),
+    MILD(0xed244f , ImmersiveKitchenItemTags.MILD),
+    RICH(0x64ed6a , ImmersiveKitchenItemTags.RICH),
+    SPECIAL(0xedb664 , ImmersiveKitchenItemTags.SPECIAL),
+    SAVORY(0x452f0e , ImmersiveKitchenItemTags.SAVORY),
+    OILY(0xfcc051 , ImmersiveKitchenItemTags.OILY),
+    FLORAL(0xf3d7f7 , ImmersiveKitchenItemTags.FLORAL),
+    
     STARCHY(0xa89d85, ImmersiveKitchenItemTags.STARCHY),;
 
 

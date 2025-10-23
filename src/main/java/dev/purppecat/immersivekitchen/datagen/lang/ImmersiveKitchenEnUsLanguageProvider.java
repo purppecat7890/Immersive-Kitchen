@@ -66,6 +66,14 @@ public class ImmersiveKitchenEnUsLanguageProvider extends ExtendedEnUsLanguagePr
         add(Taste.SOFT.displayName(), "Soft");
         add(Taste.SOUR.displayName(), "Sour");
         add(Taste.MEATY.displayName(), "Meaty");
+        add(Taste.SAVORY.displayName(), "Savory");
+        add(Taste.MILD.displayName(), "Mild");
+        add(Taste.SPECIAL.displayName(), "Special");
+        add(Taste.FLAKY.displayName(), "Flaky");
+        add(Taste.OILY.displayName(), "Oily");
+        add(Taste.FLORAL.displayName(), "Floral");
+        add(Taste.RICH.displayName(), "Rich");
+        add(Taste.FISHY.displayName(), "Fishy");
     }
 
     private void addTabs() {

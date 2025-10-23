@@ -23,7 +23,7 @@ public class ImmersiveKitchenItemTags {
     public static final TagKey<Item> SPICY = create("spicy");
     /// Items that taste fresh.
     public static final TagKey<Item> FRESH = create("fresh");
-    /// Items that taste tart.
+    /// Items that taste like tart.
     public static final TagKey<Item> TART = create("tart");
     /// Items that taste bitter.
     public static final TagKey<Item> BITTER = create("bitter");
@@ -51,7 +51,22 @@ public class ImmersiveKitchenItemTags {
     public static final TagKey<Item> SOUR = create("sour");
     ///  Items that taste like meat.
     public static final TagKey<Item> MEATY = create("meaty");
-
+    ///  Items that taste fishy.
+    public static final TagKey<Item> FISHY = create("fishy");
+    ///  Items that taste floral.
+    public static final TagKey<Item> FLORAL = create("floral");
+    ///  Items that taste special.
+    public static final TagKey<Item> SPECIAL = create("special");
+    ///  Items that taste mild.
+    public static final TagKey<Item> MILD = create("mild");
+    ///  Items that taste oily.
+    public static final TagKey<Item> OILY = create("oily");
+    ///  Items that taste rich.
+    public static final TagKey<Item> RICH = create("rich");
+    ///  Items that taste flaky.
+    public static final TagKey<Item> FLAKY = create("flaky");
+    ///  Items that taste savory.
+    public static final TagKey<Item> SAVORY = create("savory");
 
 
     private static TagKey<Item> create(String name) {
